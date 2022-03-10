@@ -4,6 +4,8 @@
 #include <algorithm>
 #include <array>
 
+// algorithm credit goes here;
+// https://www.geeksforgeeks.org/odd-even-sort-brick-sort/
 template<typename T, int N>
 inline void odd_even_sort(std::array<T, N>& arr, int n)
 {
