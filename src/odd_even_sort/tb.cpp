@@ -36,7 +36,7 @@ int main()
     return -1;
   }
 
-#ifdef DEBUG
+#ifdef D_DEBUG
   std::ofstream ofs {"Logfile"};
   copy(begin(myarr),begin(myarr)+n,std::ostream_iterator<myarr_type> {ofs, "\n"});
 #endif
