@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="arch_package" />
+            <top_module name="glbl" />
+            <top_module name="proj_package" />
+            <top_module name="sim_tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="602.964031 us"></ZoomEndTime>
+      <Cursor1Time time="534.485146 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="285"></NameColumnWidth>
+      <ValueColumnWidth column_width="173"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_local_block">
+      <obj_property name="ElementShortName">ap_local_block</obj_property>
+      <obj_property name="ObjectShortName">ap_local_block</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_local_deadlock">
+      <obj_property name="ElementShortName">ap_local_deadlock</obj_property>
+      <obj_property name="ObjectShortName">ap_local_deadlock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_clk">
+      <obj_property name="ElementShortName">ap_clk</obj_property>
+      <obj_property name="ObjectShortName">ap_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_rst_n">
+      <obj_property name="ElementShortName">ap_rst_n</obj_property>
+      <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_start">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_done">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_idle">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/ap_ready">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWADDR">
+      <obj_property name="ElementShortName">m_axi_myarr_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWLEN">
+      <obj_property name="ElementShortName">m_axi_myarr_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWSIZE">
+      <obj_property name="ElementShortName">m_axi_myarr_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWBURST">
+      <obj_property name="ElementShortName">m_axi_myarr_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWLOCK">
+      <obj_property name="ElementShortName">m_axi_myarr_AWLOCK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWLOCK[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWREGION">
+      <obj_property name="ElementShortName">m_axi_myarr_AWREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWREGION[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWCACHE">
+      <obj_property name="ElementShortName">m_axi_myarr_AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWPROT">
+      <obj_property name="ElementShortName">m_axi_myarr_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWQOS">
+      <obj_property name="ElementShortName">m_axi_myarr_AWQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWQOS[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWVALID">
+      <obj_property name="ElementShortName">m_axi_myarr_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_AWREADY">
+      <obj_property name="ElementShortName">m_axi_myarr_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_WDATA">
+      <obj_property name="ElementShortName">m_axi_myarr_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_WSTRB">
+      <obj_property name="ElementShortName">m_axi_myarr_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_WLAST">
+      <obj_property name="ElementShortName">m_axi_myarr_WLAST</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_WLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_WVALID">
+      <obj_property name="ElementShortName">m_axi_myarr_WVALID</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_WREADY">
+      <obj_property name="ElementShortName">m_axi_myarr_WREADY</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_BRESP">
+      <obj_property name="ElementShortName">m_axi_myarr_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_BVALID">
+      <obj_property name="ElementShortName">m_axi_myarr_BVALID</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_BREADY">
+      <obj_property name="ElementShortName">m_axi_myarr_BREADY</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARADDR">
+      <obj_property name="ElementShortName">m_axi_myarr_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARLEN">
+      <obj_property name="ElementShortName">m_axi_myarr_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARSIZE">
+      <obj_property name="ElementShortName">m_axi_myarr_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARBURST">
+      <obj_property name="ElementShortName">m_axi_myarr_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARLOCK">
+      <obj_property name="ElementShortName">m_axi_myarr_ARLOCK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARLOCK[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARREGION">
+      <obj_property name="ElementShortName">m_axi_myarr_ARREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARREGION[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARCACHE">
+      <obj_property name="ElementShortName">m_axi_myarr_ARCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARPROT">
+      <obj_property name="ElementShortName">m_axi_myarr_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARQOS">
+      <obj_property name="ElementShortName">m_axi_myarr_ARQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARQOS[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARVALID">
+      <obj_property name="ElementShortName">m_axi_myarr_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_ARREADY">
+      <obj_property name="ElementShortName">m_axi_myarr_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_RDATA">
+      <obj_property name="ElementShortName">m_axi_myarr_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_RRESP">
+      <obj_property name="ElementShortName">m_axi_myarr_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_RLAST">
+      <obj_property name="ElementShortName">m_axi_myarr_RLAST</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_RLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_RVALID">
+      <obj_property name="ElementShortName">m_axi_myarr_RVALID</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr_RREADY">
+      <obj_property name="ElementShortName">m_axi_myarr_RREADY</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/n">
+      <obj_property name="ElementShortName">n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/myarr_out_ap_vld">
+      <obj_property name="ElementShortName">myarr_out_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">myarr_out_ap_vld</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/myarr_out">
+      <obj_property name="ElementShortName">myarr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">myarr_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/sim_tb_top/u_design_1_wrapper/design_1_i/synth_tb_0/m_axi_myarr">
+      <obj_property name="ElementShortName">m_axi_myarr</obj_property>
+      <obj_property name="ObjectShortName">m_axi_myarr</obj_property>
+   </wvobject>
+</wave_config>
