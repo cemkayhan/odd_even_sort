@@ -1,5 +1,5 @@
 #ifndef TB_HPP_INCLUDED
-#define TB_HPP_INCLUDED 1
+#define TB_HPP_INCLUDED
 
 #include "ap_int.h"
 

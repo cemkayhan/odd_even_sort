@@ -14,8 +14,9 @@ lappend common_cflags {-std=c++14}
 lappend common_cflags {-Wall}
 lappend common_cflags {-Wextra}
 lappend common_cflags {-Wno-unused-label}
-lappend common_cflags {-DD_MYARR_SIZE=4096}
+lappend common_cflags {-DD_MYARR_SIZE=100}
 lappend common_cflags {-DD_MYARR_TYPE=int}
+lappend common_cflags {-DD_MYARR_M_AXI_INTERFACE}
 
 set cflags $common_cflags
 add_files {../src/odd_even_sort/odd_even_sort_top.cpp} -cflags $cflags

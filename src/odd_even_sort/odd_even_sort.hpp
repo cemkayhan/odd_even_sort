@@ -1,5 +1,5 @@
 #ifndef ODD_EVEN_SORT_HPP_INCLUDED
-#define ODD_EVEN_SORT_HPP_INCLUDED 1
+#define ODD_EVEN_SORT_HPP_INCLUDED
 
 #include <algorithm>
 #include <array>
