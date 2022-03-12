@@ -16,7 +16,7 @@ lappend common_cflags {-Wextra}
 lappend common_cflags {-Wno-unused-label}
 
 set cflags $common_cflags
-lappend cflags {-I../src/odd_even_sort/}
+lappend cflags {-I../../src/odd_even_sort/}
 add_files {./synth_tb.cpp} -cflags $cflags
 
 config_interface -m_axi_addr64=false
