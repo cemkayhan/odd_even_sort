@@ -47,7 +47,7 @@ proc checkRequiredFiles { origin_dir} {
   }
 
   set paths [list \
- "[file normalize "$origin_dir/[file normalize "$origin_dir/../iprepo"]"]"\
+ "[file normalize "$origin_dir/[file normalize "$origin_dir/iprepo"]"]"\
   ]
   foreach ipath $paths {
     if { ![file isdirectory $ipath] } {
@@ -67,7 +67,7 @@ if { [info exists ::origin_dir_loc] } {
 }
 
 # Set the project name
-set _xil_proj_name_ "odd_even_sort"
+set _xil_proj_name_ "dummy"
 
 # Use project name variable, if specified in the tcl shell
 if { [info exists ::user_project_name] } {
@@ -220,7 +220,7 @@ if {[string equal [get_filesets -quiet sources_1] ""]} {
 # Set IP repository paths
 set obj [get_filesets sources_1]
 if { $obj != {} } {
-   set_property "ip_repo_paths" "[file normalize "$origin_dir/../iprepo"]" $obj
+   set_property "ip_repo_paths" "[file normalize "$origin_dir/iprepo"]" $obj
 
    # Rebuild user ip_repo's index before adding any source files
    update_ip_catalog -rebuild
